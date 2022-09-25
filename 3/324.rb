@@ -13,7 +13,6 @@ class MyClass2 < MyClass
   my_class_method :hoge, :fuga
 end
 
-
 obj = MyClass2.new
 
 p obj.hoge
