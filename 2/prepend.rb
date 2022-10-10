@@ -13,3 +13,8 @@ end
 
 p C.new.my_method #=> '上書きします'
 p C.ancestors #=> [M, C, Object, Kernel, BasicObject]
+
+
+class MyClass
+  p ancestors
+end
